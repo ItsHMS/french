@@ -1,20 +1,22 @@
 <template>
   <q-page>
     <div class="row q-pb-xl">
-      <div class="col-5 self-center items-center text-center text-h3 text-bold">
+      <div
+        class="col-12 col-md-5 self-center items-center text-center text-h3 text-bold"
+      >
         Pour que cela ne se reproduise plus.
       </div>
-      <q-img class="col-7" src="~assets/Picture1.png" />
+      <q-img class="col-12 col-md-7" src="~assets/Picture1.png" />
     </div>
     <!-- 
 
  -->
     <div style="background: cornsilk" class="row q-py-xl">
-      <div class="row q-col-gutter-y-md col-8">
+      <div class="row q-col-gutter-y-md col-12">
         <div class="col-12 q-mr-md text-h3 text-center text-bold">
           DE GRAVES CONSÉQUENCES
         </div>
-        <div class="col-1 row justify-center">
+        <div class="col-1 row justify-center items-center q-mx-sm">
           <q-avatar>
             <img src="~assets/Red_Warning.svg" />
           </q-avatar>
@@ -23,7 +25,7 @@
           Des éclosions mettant en danger les employés et usagers.
         </div>
 
-        <div class="col-1 row justify-center">
+        <div class="col-1 row justify-center items-center q-mx-sm">
           <q-avatar>
             <img src="~assets/Red_Warning.svg" />
           </q-avatar>
@@ -32,7 +34,7 @@
           La fermeture temporaire de services primordiaux.
         </div>
 
-        <div class="col-1 row justify-center">
+        <div class="col-1 row justify-center items-center q-mx-sm">
           <q-avatar>
             <img src="~assets/Red_Warning.svg" />
           </q-avatar>
@@ -41,7 +43,7 @@
           La re-planification d'importantes interventions.
         </div>
 
-        <div class="col-1 row justify-center">
+        <div class="col-1 row justify-center items-center q-mx-sm">
           <q-avatar>
             <img src="~assets/Red_Warning.svg" />
           </q-avatar>
@@ -55,11 +57,11 @@
 
      -->
     <div class="row q-py-xl">
-      <div class="row col-7 q-col-gutter-y-md justify-end">
+      <div class="row col-12 col-md-7 q-col-gutter-y-md justify-end">
         <div class="col-12 q-mr-md text-h3 text-center text-bold">
           DE GRAVES CONSÉQUENCES
         </div>
-        <div class="col-1 row items-center">
+        <div class="col-1 row items-center q-mx-sm">
           <q-avatar>
             <img src="~assets/Check_OK.svg" />
           </q-avatar>
@@ -68,7 +70,7 @@
           Réduction du nombre d’éclosions.
         </div>
 
-        <div class="col-1 row items-center">
+        <div class="col-1 row items-center q-mx-sm">
           <q-avatar>
             <img src="~assets/Check_OK.svg" />
           </q-avatar>
@@ -77,7 +79,7 @@
           Meilleure diffusion des bonnes pratiques.
         </div>
 
-        <div class="col-1 row items-center">
+        <div class="col-1 row items-center q-mx-sm">
           <q-avatar>
             <img src="~assets/Check_OK.svg" />
           </q-avatar>
@@ -86,7 +88,7 @@
           Réduction des délais liés à l'accessibilité de documentation.
         </div>
 
-        <div class="col-1 row items-center">
+        <div class="col-1 row items-center q-mx-sm">
           <q-avatar>
             <img src="~assets/Check_OK.svg" />
           </q-avatar>
@@ -95,7 +97,7 @@
           Réduction des risques financiers.
         </div>
 
-        <div class="col-1 row items-center">
+        <div class="col-1 row items-center q-mx-sm">
           <q-avatar>
             <img src="~assets/Check_OK.svg" />
           </q-avatar>
@@ -104,7 +106,7 @@
           Réduction des risques de réputation.
         </div>
       </div>
-      <div class="col">
+      <div class="col-12 col-md-5">
         <q-img src="~assets/Picture2.png" />
       </div>
     </div>
@@ -128,9 +130,9 @@
         Lors de leurs interventions aimeraient pouvoir :
       </div>
       <div class="row col-12 justify-center">
-        <div class="col-5">
+        <div class="col-12 col-md-5">
           <div class="col-12 row">
-            <div class="col-1 row items-center">
+            <div class="col-1 row items-center q-mx-sm">
               <q-avatar>
                 <img src="~assets/Check_OK.svg" />
               </q-avatar>
@@ -143,9 +145,9 @@
             <q-img src="~assets/Picture3.png" />
           </div>
         </div>
-        <div class="col-5">
+        <div class="col-12 col-md-5">
           <div class="col-12 row">
-            <div class="col-1 row items-center">
+            <div class="col-1 row items-center q-mx-sm">
               <q-avatar>
                 <img src="~assets/Check_OK.svg" />
               </q-avatar>
@@ -174,23 +176,23 @@
         2 ZONES D’IMPACTS PRIORITAIRES EN PRÉVENTION
       </div>
       <div class="col-12 row q-pb-md">
-        <div class="col-1 row justify-center items-center">
-          <q-avatar>
+        <div class="col-1 row justify-center items-center q-mx-sm">
+          <q-avatar square>
             <img src="~assets/arrow_page$.gif" />
           </q-avatar>
         </div>
-        <div class="col-8 q-mr-md text-h4 row items-center">
+        <div class="col-10 col-md-8 q-mr-md text-h4 row items-center">
           L’amélioration des moyens de diffusion de l’information au sein des
           installations des établissements de santé.
         </div>
       </div>
       <div class="col-12 row">
-        <div class="col-1 row justify-center items-center">
-          <q-avatar>
+        <div class="col-1 row justify-center items-center q-mx-sm">
+          <q-avatar square>
             <img src="~assets/logo_page4.gif" />
           </q-avatar>
         </div>
-        <div class="col-8 q-mr-md text-h4 row items-center">
+        <div class="col-10 col-md-8 q-mr-md text-h4 row items-center">
           Les limitations des moyens d’accès rapide à la documentation
           essentielle en tout temps et de partout.
         </div>
@@ -203,8 +205,8 @@
      -->
 
     <div id="notre" style="background: cornsilk" class="row q-py-xl">
-      <div class="row col-7 q-col-gutter-y-md justify-end">
-        <div class="col-1 row items-center">
+      <div class="row col-12 col-md-7 q-col-gutter-y-md justify-end">
+        <div class="col-1 row items-center q-mx-sm">
           <q-avatar>
             <img src="~assets/Check_OK.svg" />
           </q-avatar>
@@ -213,7 +215,7 @@
           Une plateforme simple et intuitive.
         </div>
 
-        <div class="col-1 row items-center">
+        <div class="col-1 row items-center q-mx-sm">
           <q-avatar>
             <img src="~assets/Check_OK.svg" />
           </q-avatar>
@@ -223,7 +225,7 @@
           diffusées.
         </div>
 
-        <div class="col-1 row items-center">
+        <div class="col-1 row items-center q-mx-sm">
           <q-avatar>
             <img src="~assets/Check_OK.svg" />
           </q-avatar>
@@ -232,7 +234,7 @@
           Accessible en tout temps et multiplateforme.
         </div>
 
-        <div class="col-1 row items-center">
+        <div class="col-1 row items-center q-mx-sm">
           <q-avatar>
             <img src="~assets/Check_OK.svg" />
           </q-avatar>
@@ -241,7 +243,7 @@
           Un portail pour les membres et usagers des établissements.
         </div>
       </div>
-      <div class="col">
+      <div class="col-12 col-md-5">
         <q-img src="~assets/Picture5.png" />
       </div>
     </div>
@@ -251,8 +253,8 @@
      -->
 
     <div id="blanches" class="row q-py-xl">
-      <div class="row col-7 q-col-gutter-y-md justify-end">
-        <div class="col-1 row items-center">
+      <div class="row col-12md-7 q-col-gutter-y-md justify-end">
+        <div class="col-1 row items-center q-mx-sm">
           <q-avatar>
             <img src="~assets/Check_OK.svg" />
           </q-avatar>
@@ -262,7 +264,7 @@
           opératoire.
         </div>
 
-        <div class="col-1 row items-center">
+        <div class="col-1 row items-center q-mx-sm">
           <q-avatar>
             <img src="~assets/Check_OK.svg" />
           </q-avatar>
@@ -271,7 +273,7 @@
           Suivi de vos salles à pression négative Salles Isolement respiratoire.
         </div>
 
-        <div class="col-1 row items-center">
+        <div class="col-1 row items-center q-mx-sm">
           <q-avatar>
             <img src="~assets/Check_OK.svg" />
           </q-avatar>
@@ -281,7 +283,7 @@
           équipe. des services techniques
         </div>
 
-        <div class="col-1 row items-center">
+        <div class="col-1 row items-center q-mx-sm">
           <q-avatar>
             <img src="~assets/Check_OK.svg" />
           </q-avatar>
@@ -291,7 +293,7 @@
           température, humidité, le changement d’air à l'heure.
         </div>
       </div>
-      <div class="col">
+      <div class="col-12 col-md-5">
         <q-img src="~assets/Picture6.png" />
       </div>
     </div>
