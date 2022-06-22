@@ -19,8 +19,9 @@
             Aziri
           </q-toolbar-title>
         </div>
+        <q-space />
 
-        <div style="background: cornsilk" class="row q-py-lg col justify-end">
+        <div class="row gt-md q-py-lg col justify-end">
           <q-btn
             class="col-12 col-md-auto"
             href="#notre"
@@ -54,6 +55,30 @@ En prévention
 "
           />
         </div>
+        <!-- md -->
+
+        <q-btn class="lt-md" color="primary" icon="menu">
+          <q-menu>
+            <q-list style="min-width: 100px">
+              <q-item href="#notre" clickable v-close-popup>
+                <q-item-section>Notre Solution En prévention</q-item-section>
+              </q-item>
+              <q-item href="#blanches" clickable v-close-popup>
+                <q-item-section>Salles Blanches</q-item-section>
+              </q-item>
+              <q-item href="#contact" clickable v-close-popup>
+                <q-item-section>Contact</q-item-section>
+              </q-item>
+              <q-item clickable v-close-popup>
+                <q-item-section>Articles</q-item-section>
+              </q-item>
+              <q-item clickable v-close-popup>
+                <q-item-section>Se Connecter</q-item-section>
+              </q-item>
+            </q-list>
+          </q-menu>
+        </q-btn>
+        <!--  -->
       </q-toolbar>
     </q-header>
 
