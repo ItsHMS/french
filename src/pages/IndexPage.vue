@@ -206,11 +206,7 @@
             </div>
           </div>
           <div class="col">
-            <q-img
-              style="max-height: 300px"
-              fit="contain"
-              src="~assets/Picture4.png"
-            />
+            <q-img :ratio="16 / 9" fit="contain" src="~assets/Picture4.png" />
           </div>
         </div>
       </div>
@@ -235,7 +231,7 @@
             </q-avatar>
           </div>
           <div
-            class="col-10 col-md-8 q-mr-md text-h4 row items-center"
+            class="col-10 col-md-9 q-mr-md text-h4 row items-center"
             style="font-size: 24px; font-weight: bold"
           >
             L’amélioration des moyens de diffusion de l’information au sein des
@@ -249,7 +245,7 @@
             </q-avatar>
           </div>
           <div
-            class="col-10 col-md-8 q-mr-md text-h4 row items-center"
+            class="col-10 col-md-9 q-mr-md text-h4 row items-center"
             style="font-size: 24px; font-weight: bold"
           >
             Les limitations des moyens d’accès rapide à la documentation
@@ -257,8 +253,8 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-4">
-        <q-img src="~assets/Picture4.png" />
+      <div class="col-12 col-md-3">
+        <q-img :ratio="4 / 3" fit="contain" src="~assets/Picture4.png" />
       </div>
     </div>
 
@@ -269,6 +265,12 @@
 
     <div id="notre" style="min-height: calc(100vh - 70px)" class="row q-py-xl">
       <div class="row col-12 col-md-7 q-col-gutter-y-md justify-end">
+        <div
+          class="col-12 q-mr-md text-start q-pl-lg text-bold"
+          style="font-size: 44px"
+        >
+          Aziri C’EST :
+        </div>
         <div class="col-1 row items-center q-mx-sm">
           <q-avatar>
             <img src="~assets/Check_OK.svg" />
@@ -321,6 +323,12 @@
       class="row q-py-xl"
     >
       <div class="row col-12 col-md-7 q-col-gutter-y-md justify-end">
+        <div
+          class="col-12 q-mr-md text-start q-pl-lg text-bold"
+          style="font-size: 28px"
+        >
+          UN SUIVI DE VOS SALLES BLANCHES ET À PRESSION NÉGATIVE
+        </div>
         <div class="col-1 row items-center q-mx-sm">
           <q-avatar>
             <img src="~assets/Check_OK.svg" />
