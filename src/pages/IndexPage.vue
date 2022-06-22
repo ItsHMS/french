@@ -12,10 +12,7 @@
     <!-- 
 
  -->
-    <div
-      style="background: cornsilk; min-height: calc(100vh - 70px)"
-      class="row q-py-xl"
-    >
+    <div style="min-height: calc(100vh - 70px)" class="row q-py-xl">
       <div class="row q-col-gutter-y-md col-12">
         <div
           class="col-12 q-mrl-md text-start q-pl-lg text-bold"
@@ -154,10 +151,7 @@
 
      -->
 
-    <div
-      style="background: cornsilk; min-height: calc(100vh - 70px)"
-      class="row q-py-xl"
-    >
+    <div style="min-height: calc(100vh - 70px)" class="row q-py-xl">
       <div
         class="col-12 q-mr-md text-start q-pl-lg text-bold"
         style="font-size: 44px"
@@ -273,11 +267,7 @@
 
      -->
 
-    <div
-      id="notre"
-      style="background: cornsilk; min-height: calc(100vh - 70px)"
-      class="row q-py-xl"
-    >
+    <div id="notre" style="min-height: calc(100vh - 70px)" class="row q-py-xl">
       <div class="row col-12 col-md-7 q-col-gutter-y-md justify-end">
         <div class="col-1 row items-center q-mx-sm">
           <q-avatar>
@@ -382,7 +372,7 @@
 
     <div
       id="contact"
-      style="background: cornsilk; min-height: calc(100vh - 70px)"
+      style="min-height: calc(100vh - 70px)"
       class="row justify-center"
     >
       <div class="row col-4 justify-right">
