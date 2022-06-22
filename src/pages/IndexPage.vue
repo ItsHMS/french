@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <div style="height: calc(100vh - 70px)" class="row">
+    <div style="min-height: calc(100vh - 70px)" class="row">
       <div
         style="font-size: 44px"
         class="col-12 col-md-5 self-center items-center text-start text-h3 text-bold q-px-md"
@@ -13,7 +13,7 @@
 
  -->
     <div
-      style="background: cornsilk; height: calc(100vh - 70px)"
+      style="background: cornsilk; min-height: calc(100vh - 70px)"
       class="row q-py-xl"
     >
       <div class="row q-col-gutter-y-md col-12">
@@ -75,8 +75,11 @@
     <!-- 
 
      -->
-    <div style="height: calc(100vh - 70px)" class="row q-py-xl">
+    <div style="min-height: calc(100vh - 70px)" class="row q-py-xl">
       <div class="row col-12 col-md-7 q-col-gutter-y-md justify-end">
+        <div class="col-12 text-right q-pl-lg" style="font-size: 23px">
+          Au service des mesures en prévention
+        </div>
         <div
           class="col-12 text-h3 text-start q-pl-lg text-bold"
           style="font-size: 28px; text-decoration: underline; font-weight: bold"
@@ -152,7 +155,7 @@
      -->
 
     <div
-      style="background: cornsilk; height: calc(100vh - 70px)"
+      style="background: cornsilk; min-height: calc(100vh - 70px)"
       class="row q-py-xl"
     >
       <div
@@ -223,7 +226,7 @@
 
      -->
 
-    <div style="height: calc(100vh - 70px)" class="row q-py-xl">
+    <div style="min-height: calc(100vh - 70px)" class="row q-py-xl">
       <div class="col-12 col-md-8">
         <div
           class="col-12 q-mr-md q-pb-xl text-h3 text-start q-pl-lg text-bold"
@@ -272,7 +275,7 @@
 
     <div
       id="notre"
-      style="background: cornsilk; height: calc(100vh - 70px)"
+      style="background: cornsilk; min-height: calc(100vh - 70px)"
       class="row q-py-xl"
     >
       <div class="row col-12 col-md-7 q-col-gutter-y-md justify-end">
@@ -322,7 +325,11 @@
 
      -->
 
-    <div style="height: calc(100vh - 70px)" id="blanches" class="row q-py-xl">
+    <div
+      style="min-height: calc(100vh - 70px)"
+      id="blanches"
+      class="row q-py-xl"
+    >
       <div class="row col-12 col-md-7 q-col-gutter-y-md justify-end">
         <div class="col-1 row items-center q-mx-sm">
           <q-avatar>
@@ -375,7 +382,7 @@
 
     <div
       id="contact"
-      style="background: cornsilk; height: calc(100vh - 70px)"
+      style="background: cornsilk; min-height: calc(100vh - 70px)"
       class="row justify-center"
     >
       <div class="row col-4 justify-right">
